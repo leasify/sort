@@ -14,8 +14,8 @@ Built with:
 1. `git clone git@github.com:leasify/sort.git`
 1. `cd sort && valet secure`
 1. `cp .env.example .env`
-1. `php artisan key:gen`
 1. `composer install`
+1. `php artisan key:gen`
 1. `npm i && npm run dev`
 1. `touch database/database.sqlite`
 1. `php artisan migrate`
@@ -27,8 +27,8 @@ Built with:
 git clone git@github.com:leasify/sort.git && \
 cd sort && valet secure && \
 cp .env.example .env && \
-php artisan key:gen && \
 composer install && \
+php artisan key:gen && \
 npm i && npm run dev && \
 touch database/database.sqlite && \
 php artisan migrate

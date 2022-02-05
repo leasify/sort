@@ -2507,6 +2507,12 @@ select{
 .-ml-0{
   margin-left: -0px;
 }
+.-ml-1{
+  margin-left: -0.25rem;
+}
+.mr-3{
+  margin-right: 0.75rem;
+}
 .-mb-7{
   margin-bottom: -1.75rem;
 }
@@ -2516,8 +2522,8 @@ select{
 .mt-10{
   margin-top: 2.5rem;
 }
-.-ml-1{
-  margin-left: -0.25rem;
+.mt-4{
+  margin-top: 1rem;
 }
 .block{
   display: block;
@@ -2944,6 +2950,10 @@ select{
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
 }
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
 .bg-gray-50{
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -2958,6 +2968,18 @@ select{
 .bg-gray-200{
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+.fill-blue-600{
+  fill: #2563eb;
+}
+.fill-blue-800{
+  fill: #1e40af;
+}
+.fill-red-800{
+  fill: #991b1b;
+}
+.fill-red-500{
+  fill: #ef4444;
 }
 .p-6{
   padding: 1.5rem;
@@ -3030,6 +3052,9 @@ select{
 }
 .pr-4{
   padding-right: 1rem;
+}
+.pt-4{
+  padding-top: 1rem;
 }
 .text-left{
   text-align: left;
@@ -3145,17 +3170,21 @@ select{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
-.text-gray-700{
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 .antialiased{
   -webkit-font-smoothing: antialiased;
@@ -3173,11 +3202,14 @@ select{
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
 }
-.opacity-50{
-  opacity: 0.5;
+.opacity-25{
+  opacity: 0.25;
 }
 .opacity-75{
   opacity: 0.75;
+}
+.opacity-50{
+  opacity: 0.5;
 }
 .opacity-100{
   opacity: 1;
@@ -3385,6 +3417,28 @@ select{
 }
 [dir="rtl"] .rtl\:pr-0{
   padding-right: 0px;
+}
+@media (prefers-color-scheme: dark){
+
+  .dark\:text-gray-600{
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-gray-300{
+    --tw-text-opacity: 1;
+    color: rgb(209 213 219 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-gray-500{
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-gray-400{
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+  }
 }
 @media (min-width: 640px){
 

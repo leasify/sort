@@ -9,8 +9,12 @@ use Livewire\Component;
 class WelcomePage extends Component
 {
     public $cards;
+    public $fingerprint;
 
     public function mount() {
+
+        $this->fingerprint = uniqid();
+
         $cards = Card::orderBy('sort_order')->get();
 
         if(!$cards->count()) {
@@ -39,5 +43,6 @@ class WelcomePage extends Component
             $card->sort_order = $reorder['order'];
             $card->save();
         }
+        $this->fingerprint = uniqid();
     }
 }
